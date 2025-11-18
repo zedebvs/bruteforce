@@ -1,0 +1,61 @@
+{
+    "cores": 12,
+    "output": "output.txt",
+    "verbose": true,
+    "chunk_size": 10000,
+    "password_leng": 3,
+    "symbols": [
+        {
+            "start": 97,
+            "end": 110
+        }
+    ],
+    "rainbow": {
+        "dir": "rainbow",
+        "file_names": []
+    },
+    "texts_file": {
+        "dir": "lists",
+        "file_names": [
+            "rockyou_1.txt"
+        ]
+    },
+    "algs": [
+        {
+            "name": "md5",
+            "targets": [
+                "e10adc3949ba59abbe56e057f20f883e",
+                "1f3870be274f6c49b3e31a0c6728957f",
+                "77892341aa9dc66e97f5c248782b5d92",
+                "686e697538050e4664636337cc3b834f"
+            ]
+        },
+        {
+            "name": "sha1",
+            "targets": [
+                "7c4a8d09ca3762af61e59520943dc26494f8941b",
+                "d0be2dc421be4fcd0172e5afceea3970e2f3d940",
+                "666846867fc5e0a46a7afc53eb8060967862f333",
+                "6e157c5da4410b7e9de85f5c93026b9176e69064"
+            ]
+        },
+        {
+            "name": "bcrypt",
+            "targets": [
+                "$2a$10$z4u9ZkvopUiiytaNX7wfGedy9Lu2ywUxwYpbsAR5YBrAuUs3YGXdi",
+                "$2a$10$26GB/T2/6aTsMkTjCgqm/.JP8SUjr32Bhfn9m9smtDiIwM4QIt2ze",
+                "$2a$10$Q9M0vLLrE4/nu/9JEMXFTewB3Yr9uMdIEZ1Sgdk1NQTjHwLN0asfi",
+                "$2a$10$yZBadi8Szw0nItV2g96P6eqctI2kbG/.mb0uD/ID9tlof0zpJLLL2"
+            ]
+        },
+        {
+            "name": "argon2",
+            "targets": [
+                "$argon2id$v=19$m=65536,t=3,p=2$c2FsdHNhbHQ$PUF5UxxoUY++mMekkQwFurL0ZsTtB7lelO23zcyZQ0c",
+                "$argon2id$v=19$m=65536,t=3,p=2$c2FsdHNhbHQ$HYQwRUw9VcfkvqkUQ5ppyYPom6f/ro3ZCXYznhrYZw4",
+                "$argon2id$v=19$m=65536,t=3,p=2$c2FsdHNhbHQ$9asGA7Xv3vQBz7Yyh4/Ntw0GQgOg8R6OWolOfRETrEg",
+                "$argon2id$v=19$m=65536,t=3,p=2$c2FsdHNhbHQ$+smq45/czydGj0lYNdZVXF++FOXJwrkXt6VUIcEauvo"
+            ]
+        }
+    ]
+}
